@@ -27,7 +27,6 @@ function App() {
   useEffect(() => {
     const baseUrl = "https://api.openweathermap.org/data/2.5/weather";
     const ACCESS_KEY = import.meta.env.VITE_SOME_KEY;
-    console.log(ACCESS_KEY ? "ok" : "indefinido")
 
     const getting = async () =>{
       if (allCountries.length === 1) {
